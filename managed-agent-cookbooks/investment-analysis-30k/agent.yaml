@@ -1,0 +1,24 @@
+name: investment-analysis-30k
+description: Conservative-moderate investment analysis for EUR 30,000 targeting ~10% annual return
+version: "1.0.0"
+
+system:
+  file: ../../plugins/agent-plugins/market-researcher/agents/market-researcher.md
+
+skills:
+  - path: ../../plugins/vertical-plugins/wealth-management/skills/investment-proposal/SKILL.md
+  - path: ../../plugins/vertical-plugins/wealth-management/skills/financial-plan/SKILL.md
+  - path: ../../plugins/vertical-plugins/wealth-management/skills/portfolio-rebalance/SKILL.md
+  - path: ../../plugins/vertical-plugins/equity-research/skills/idea-generation/SKILL.md
+
+parameters:
+  investment_amount: 30000
+  currency: EUR
+  target_return_pct: 10
+  risk_profile: conservative-moderate
+  time_horizon_years: 10
+  investor_country: Slovenia
+  language: slovenian
+
+output:
+  analysis: README.md

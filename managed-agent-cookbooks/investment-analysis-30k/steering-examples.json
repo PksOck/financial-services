@@ -1,0 +1,5 @@
+[
+  { "event": "Analyze 30k EUR investment for 10% annual return, conservative-moderate profile", "description": "Full allocation analysis with ETF recommendations for EU retail investor" },
+  { "event": "Update projection table for 8% assumed return scenario", "description": "Scenario refresh with different return assumption" },
+  { "event": "Rebalance portfolio after 20% equity drift", "description": "Annual rebalancing recommendation using portfolio-rebalance skill" }
+]
